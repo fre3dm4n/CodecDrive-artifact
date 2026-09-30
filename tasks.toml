@@ -1,0 +1,149 @@
+[ms-teams_screen_start]
+actions = [
+  { type = "focus", title = "Meeting with ", fuzzy = true },
+  { type = "press", key = "ctrl+shift+e" },
+  { type = "press", key = "tab" },
+  { type = "press", key = "tab" },
+  { type = "press", key = "tab" },
+  { type = "press", key = "enter" },
+]
+
+[ms-teams_screen_end]
+actions = [
+  { type = "focus", title = "Meeting with", fuzzy = true },
+  { type = "press", key = "ctrl+shift+e" },
+]
+
+[ms-teams_camera_start]
+actions = [
+  { type = "focus", title = "Meeting with ", fuzzy = true },
+  { type = "press", key = "ctrl+shift+o" },
+]
+
+[ms-teams_camera_end]
+actions = [
+  { type = "focus", title = "Meeting with ", fuzzy = true },
+  { type = "press", key = "ctrl+shift+o" },
+]
+
+[wecom_screen_start]
+actions = [
+  { type = "click", text = "screenscreen", case_sensitive = false, exact_match = false },
+  { type = "click-wemeet-screen" },
+]
+
+[wecom_screen_end]
+actions = [
+  { type = "click", text = "stop", case_sensitive = false, exact_match = false },
+]
+
+[wecom_camera_start]
+actions = [
+  { type = "click", text = "Start camera", case_sensitive = false, exact_match = false },
+]
+
+[wecom_camera_end]
+actions = [
+  { type = "click", text = "Start camera", case_sensitive = false, exact_match = false },
+]
+
+[wecom_quality_start]
+actions = [
+  { type = "focus", title = "quick meeting", fuzzy = true },
+  { type = "click", text = "camera Image Quality Enhancement" },
+]
+
+[wecom_quality_end]
+actions = [
+  { type = "focus", title = "quick meeting", fuzzy = true },
+  { type = "click", text = "camera Image Quality Enhancement" },
+]
+
+[zoom_screen_start]
+actions = [
+  { type = "focus", title = "Zoom Meeting" },
+  { type = "press", key = "alt+s" },
+  { type = "press", key = "enter" },
+]
+
+[zoom_screen_end]
+actions = [
+  { type = "focus", title = "Screen sharing meeting controls" },
+  { type = "press", key = "alt+s" },
+]
+
+[zoom_camera_start]
+actions = [
+  { type = "focus", title = "Zoom Meeting" },
+  { type = "press", key = "alt+v" },
+]
+
+[zoom_camera_end]
+actions = [
+  { type = "focus", title = "Zoom Meeting" },
+  { type = "press", key = "alt+v" },
+]
+
+[zoom_resolution_start]
+actions = [
+  { type = "focus", title = "Zoom Meeting" },
+  { type = "click", text = "HD" },
+]
+
+[zoom_resolution_end]
+actions = [
+  { type = "focus", title = "Zoom Meeting" },
+  { type = "click", text = "HD" },
+]
+
+[wemeet_resolution_start]
+actions = [
+  { type = "focus", title = "Started by", fuzzy = true },
+  { type = "click", text = "HD camera" },
+]
+
+[wemeet_resolution_end]
+actions = [
+  { type = "focus", title = "Started by", fuzzy = true },
+  { type = "click", text = "HD camera" },
+]
+
+[wemeet_quality_start]
+actions = [
+  { type = "focus", title = "Started by", fuzzy = true },
+  { type = "click", text = "camera image quality enhancement" },
+]
+
+[wemeet_quality_end]
+actions = [
+  { type = "focus", title = "Started by", fuzzy = true },
+  { type = "click", text = "camera image quality enhancement" },
+]
+
+[wemeet_screen_start]
+actions = [
+  { type = "focus", title = "Started by", fuzzy = true },
+  { type = "press", key = "alt+s" },
+  { type = "click-wemeet-screen", title = "Tencent Meeting" },
+]
+
+[wemeet_screen_end]
+actions = [
+  { type = "focus", title = "Tencent Meeting", fuzzy = true },
+  { type = "press", key = "alt+s" },
+]
+
+[chaos_cpu-stress]
+actions = [
+  { type = "cpu-stress", path = "D:\\Downloads\\p95v3019b20.win64\\prime95.exe", duration = 5 },
+]
+
+[chaos_gpu-stress]
+actions = [
+  { type = "gpu-stress", path = "C:\\Program Files\\Geeks3D\\FurMark2_x64\\FurMark.exe", duration = 5 },
+]
+
+[chaos_network-stress]
+actions = [
+  { type = "network-stress", path = "D:\\workspace\\project\\chaos-forger\\asset\\LimitForApplication.exe" },
+]

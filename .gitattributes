@@ -1,0 +1,14 @@
+asset filter=lfs diff=lfs merge=lfs -text
+asset/Microsoft.Extensions.DependencyInjection.Abstractions.dll filter=lfs diff=lfs merge=lfs -text
+asset/System.Runtime.CompilerServices.Unsafe.dll filter=lfs diff=lfs merge=lfs -text
+asset/VirusTotalNet.dll filter=lfs diff=lfs merge=lfs -text
+asset/LimitForApplication.exe filter=lfs diff=lfs merge=lfs -text
+asset/Microsoft.Extensions.Logging.Abstractions.dll filter=lfs diff=lfs merge=lfs -text
+asset/NetLimiter.dll filter=lfs diff=lfs merge=lfs -text
+asset/Newtonsoft.Json.dll filter=lfs diff=lfs merge=lfs -text
+asset/System.Buffers.dll filter=lfs diff=lfs merge=lfs -text
+asset/System.Memory.dll filter=lfs diff=lfs merge=lfs -text
+asset/System.Numerics.Vectors.dll filter=lfs diff=lfs merge=lfs -text
+asset/System.Threading.Tasks.Extensions.dll filter=lfs diff=lfs merge=lfs -text
+asset/CoreLibNet.dll filter=lfs diff=lfs merge=lfs -text
+asset/Microsoft.Bcl.AsyncInterfaces.dll filter=lfs diff=lfs merge=lfs -text
